@@ -1,6 +1,8 @@
 {
     "name": "wintop/fenyong",
+    "description": "fenyong",
     "type": "library",
+    "license": "MIT",
     "require": {
         "laravel/laravel": ">5.5"
     },
@@ -9,7 +11,6 @@
             "WinTop\\": "src/"
         }
     },
-    "description": "fenyong",
     "extra": {
         "laravel": {
             "providers": [

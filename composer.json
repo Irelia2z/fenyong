@@ -1,0 +1,20 @@
+{
+    "name": "wintop/fenyong",
+    "type": "library",
+    "require": {
+        "laravel/laravel": ">5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WinTop\\": "src/"
+        }
+    },
+    "description": "fenyong",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WinTop\\CommissionServiceProvider"
+            ]
+        }
+    }
+}
